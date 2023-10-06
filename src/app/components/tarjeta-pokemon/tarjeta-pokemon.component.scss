@@ -16,7 +16,7 @@
       width: calc(100% + 8px );
       top: -4px;
       left: 0px;
-      background-color: #da4443;
+      background-color: #d71609;
       z-index: -2;
       border-radius: 5px;
      }
@@ -38,7 +38,7 @@
     width: 95px;
   }
   &seleccionado{
-    background-color: var.$principal-acento;
+    background-color: var.$cor-principal;
     -webkit-box-shadow: inset 0px 0px 7px 4px var.$principal;
     -moz-box-shadow: inset 0px 0px 7px 4px var.$principal;
     box-shadow: inset 0px 0px 7px 4px var.$principal;

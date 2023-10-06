@@ -1,23 +1,18 @@
 #container{
-  position: relative;
-  aspect-ratio: 1;
+  border: 4px solid #df0e04;
+  outline: 10px solid #f95434;
   max-width: 500px;
-  border: solid 5px #8abeed;
-  border-radius: 15px;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  outline: solid 12px  #fae45d;
+  aspect-ratio: 1;
+  border-radius: 25px;
   background: repeating-linear-gradient(
-    0deg,
-    #f0f4f5,
-    #f0f4f5 15px,
-    #c7d9ee 15px,
-    #c7d9ee 25px
+    to bottom,
+    #f5f7f9,
+    #f5f7f9 15px,
+    #f3d4c2 15px,
+    #f3d4c2 25px,
   );
-}
-
-img{
-  width: 100%;
-  image-rendering: pixelated;
+  img{
+    width: 100%;
+    image-rendering: pixelated;
+  }
 }
